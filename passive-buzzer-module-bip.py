@@ -8,7 +8,7 @@ from time import sleep
 
 # Creates buzzer instance at Pin 15 due to being connected into the GPIO Pin 15
 # See passive-buzzer-module-bip-schema.png to visualize the Pin 15 connection and ground connection
-buzzer = PWM(Pin(15))
+buzzer = PWM(Pin(2))
 buzzer.freq(2000)
 
 while True:
