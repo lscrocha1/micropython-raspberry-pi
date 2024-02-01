@@ -2,6 +2,7 @@ import socket
 import network
 import ntptime
 from time import sleep
+import time
 
 wifi = network.WLAN(network.STA_IF)
 wifi.active(True)
